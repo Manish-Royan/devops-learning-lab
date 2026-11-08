@@ -74,8 +74,10 @@ I'll share meaningful learning milestones, technical discoveries, hands-on exper
 
 **Connect with me:**
 
-- LinkedIn: [Manish Royan](https://www.linkedin.com/in/manish-bishwakarma/)
-- GitHub: [Explore my repositories](https://github.com/Manish-Royan)
+- LinkedIn: [Manish Bishwakarma](https://www.linkedin.com/in/manish-bishwakarma/)
+- GitHub:
+    - [Explore my personal-notes](https://github.com/Manish-Royan)
+    - [Explore my projects](https://github.com/Manish-Bishwakarma)
 
 ---
 
