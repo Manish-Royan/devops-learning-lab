@@ -107,7 +107,7 @@ Continue strengthening my command-line knowledge and filesystem understanding, w
 
 For the complete explanations, command examples, diagrams, comparisons, and technical breakdown:
 
-➡️ [Getting Hands-On with Linux: Running Linux, Bash & the CLI](../../notes/linux/02-running-linux-bash-and-cli/README.md)
+➡️ [Getting Hands-On with Linux: Running Linux, Bash & the CLI](../../notes/linux/02-getting-hands-on-linux/README.md)
 
 ---
 
