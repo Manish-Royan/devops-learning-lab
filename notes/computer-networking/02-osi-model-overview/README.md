@@ -8,16 +8,6 @@
 
 The **Open Systems Interconnection (OSI) model** is a seven-layer conceptual framework developed by **ISO** (International Organization for Standardization) to standardize how disparate network systems communicate. The keyword is *conceptual* — it's a teaching and design reference, not a protocol implementation. The actual internet runs on the simpler TCP/IP stack (more on that in §10), but OSI is the map I'll navigate by.
 
-### 🎯 Why OSI Exists — Four Purposes
-
-| Purpose | What It Buys Me |
-|---|---|
-| **Understand & design network architecture** | A clean way to reason about which concern lives where |
-| **Break complex communication into simple steps** | Each layer has one job; composing them produces reliable end-to-end delivery |
-| **Ensure interoperability between vendors** | Linux, Windows, Arista, Juniper, AWS — all agree on what "Layer 3" means |
-| **Troubleshoot by isolating faults to a layer** | "Is this an L2 problem or an L7 problem?" narrows debugging fast |
-
-
 ---
 
 ## 2️⃣ The Seven Layers — A Bottom-Up Tour
