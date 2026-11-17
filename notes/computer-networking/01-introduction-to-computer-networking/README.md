@@ -172,8 +172,6 @@ Now the network is programmable. I can write code (Terraform, Ansible, a control
 | **Programming Interface (APIs)** | Northbound REST / gRPC APIs let apps talk to the network | Service meshes (Istio / Linkerd) sit here; they're SDN for L7 |
 | **Improved Security** | Consistent policy across the whole fabric, pushed from one source | Microsegmentation (zero-trust east-west firewalls) becomes feasible |
 
-> 🧭 **DevOps tip:** When I see a Kubernetes CNI (Calico, Cilium, Antrea) — that's SDN. When I see AWS Security Groups applied at the elastic network interface — that's SDN. When Istio rewrites Envoy configs to enforce mTLS — that's SDN. The entire cloud-native networking stack I operate daily is built on the SDN principle: *separate brain from hands, program the brain.*
-
 ---
 
 ## 5️⃣ Air-Gapped Networks — When Disconnection Is the Feature
@@ -194,8 +192,6 @@ In practice, "air-gapped" often leaks. Common bridges that defeat the gap:
 - Unintentional Wi-Fi / Bluetooth on supposedly isolated hosts
 - Out-of-band management cards (iDRAC / iLO) someone connected to the corporate LAN "for convenience"
 - Compromised insiders
-
-> 🧭 **DevOps tip:** I'll rarely operate a true air-gap. But the *pattern* matters: regulated workloads (PCI-DSS cardholder data environment, HIPAA PHI stores, FedRAMP high) often use **logical air-gapping** — strict VPC peering restrictions, no internet gateways, no public IPs, private endpoints only. Same principle, virtualized. When designing isolation for compliance, ask: *"What's the smallest set of allowed ingress paths?"* — then alert on anything else.
 
 ---
 
