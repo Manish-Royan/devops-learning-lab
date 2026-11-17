@@ -154,7 +154,7 @@ The whole round-trip takes **just microseconds**. And every single thing your ap
 
 ## 2️⃣ Libraries Do the Talking — glibc
 
-You might notice: we wrote `open()` and `read()` in C, but the actual syscall was `openat()` (in the screenshot analysis). And in Python you write `f = open("a.txt")`, in Node.js `fs.readFile("a.txt", cb)`. Three different languages, same task — what's happening?
+You might notice: we wrote `open()` and `read()` in C, but the actual syscall was `openat()`. And in Python you write `f = open("a.txt")`, in Node.js `fs.readFile("a.txt", cb)`. Three different languages, same task — what's happening?
 
 **Apps don't talk to the kernel directly. Libraries do the talking.**
 
