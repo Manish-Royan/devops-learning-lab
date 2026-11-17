@@ -278,7 +278,7 @@ A **distribution (distro)** is what you get when someone takes:
 
 ### 🌊 Upstream and Downstream Distros
 
-Distros build on each other. The course material nails this:
+Distros build on each other.:
 
 > *"Downstream distro means Ubuntu is built on top of Debian. Debian is the base distro; Ubuntu adds more code and features on top. Likewise, Mint is downstream of Ubuntu — it's built on top of Ubuntu."*
 
