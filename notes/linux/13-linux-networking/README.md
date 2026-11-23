@@ -131,14 +131,14 @@ flowchart LR
 
 ## 📚 Reading Order
 
-| # | Note | What it covers | Read time |
-|---|---|---|---|
-| 1 | [`1-fundamentals-ip-command.md`](./1-fundamentals-ip-command.md) | IPs, interfaces, MAC, subnets, ports, `0.0.0.0` vs `127.0.0.1`, the `ip` command | ~12 min |
-| 2 | [`2-diagnostic-tools.md`](./2-diagnostic-tools.md) | `ping`, `traceroute`/`mtr`, `ifconfig`/`arp`, `curl`/`wget`/`jq`/`watch` | ~10 min |
-| 3 | [`3-dns-tools.md`](./3-dns-tools.md) | DNS concepts, A/AAAA records, TTL, `nslookup`/`dig`/`whois` | ~8 min |
-| 4 | [`4-ss-sockets.md`](./4-ss-sockets.md) | Socket statistics, `ss -tulpn`, socket families/states, all flags | ~12 min |
-| 5 | [`5-tcp-packet-analysis.md`](./5-tcp-packet-analysis.md) | TCP handshake, connection states, `tcpdump`, `telnet`/`nc`/`nmap` | ~12 min |
-| 6 | [`6-firewalls-production.md`](./6-firewalls-production.md) | UFW, cloud security groups, `iptables`, reverse proxy, DNS/TTL in production | ~10 min |
+| # | Note | What it covers |
+|---|---|---|
+| 1 | [`1-fundamentals-ip-command.md`](./1-fundamentals-ip-command.md) | IPs, interfaces, MAC, subnets, ports, `0.0.0.0` vs `127.0.0.1`, the `ip` command |
+| 2 | [`2-diagnostic-tools.md`](./2-diagnostic-tools.md) | `ping`, `traceroute`/`mtr`, `ifconfig`/`arp`, `curl`/`wget`/`jq`/`watch` |
+| 3 | [`3-dns-tools.md`](./3-dns-tools.md) | DNS concepts, A/AAAA records, TTL, `nslookup`/`dig`/`whois` |
+| 4 | [`4-ss-sockets.md`](./4-ss-sockets.md) | Socket statistics, `ss -tulpn`, socket families/states, all flags |
+| 5 | [`5-tcp-packet-analysis.md`](./5-tcp-packet-analysis.md) | TCP handshake, connection states, `tcpdump`, `telnet`/`nc`/`nmap` |
+| 6 | [`6-firewalls-production.md`](./6-firewalls-production.md) | UFW, cloud security groups, `iptables`, reverse proxy, DNS/TTL in production |
 
 Read in order — each builds on the previous. Together they form a complete Linux networking toolkit for DevOps.
 
