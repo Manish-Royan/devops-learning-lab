@@ -164,7 +164,7 @@ A phone resolves the name by asking the BIND server on port 53, then loads the p
 
 The same page opened by the custom domain name on the phone, over the same Wi-Fi.
 
-![Phone: web page opened by the custom domain name over the same Wi-Fi](images/02-phone-custom-domain.png)
+[Phone: web page opened by the custom domain name over the same Wi-Fi](images/02-phone-custom-domain.png)
 
 ---
 
