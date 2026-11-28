@@ -10,9 +10,7 @@ This chapter goes deep into DNS (the Domain Name System) and then puts it into p
 
 ![Laptop: web page opened by the custom domain name](images/01-laptop-custom-domain.png)
 
-**On the phone, same Wi-Fi**
-
-![Phone: web page opened by the custom domain name over the same Wi-Fi](images/02-phone-custom-domain.png)
+**On the phone, same Wi-Fi** [Phone: web page opened by the custom domain name over the same Wi-Fi](images/02-phone-custom-domain.png)
 
 ---
 
